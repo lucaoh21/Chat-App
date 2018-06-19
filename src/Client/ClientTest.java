@@ -30,7 +30,7 @@ public class ClientTest {
 		JButton standard = new JButton("Use standard ip and port");
 		standard.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent event) {
-				ipText.setText("139.140.92.20");
+				ipText.setText("");
 				portText.setText("8080");
 			}
 		});
